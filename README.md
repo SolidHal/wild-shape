@@ -28,3 +28,5 @@ And you should be good to go.
 
 ###Credits
 Icons come from [http://game-icons.net/](Game-Icons.net)
+
+Preview images: http://imgur.com/a/maRQV
