@@ -1,90 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <compendium version="1" auto_indent="YES">
 	<monster>
-		<name>Gromflomite</name>
+		<name>Allosaurus</name>
 		<size>Large</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>37 (5d10 + 10)</hp>
-		<speed>30 ft.</speed>
-		<fly>40 ft.</fly>
+		<hp>60 (6d10 + 18)</hp>
+		<speed>60 ft.</speed>
+		<fly></fly>
 		<burrow></burrow>
 		<climb></climb>
 		<swim></swim>
-		<str>14</str><dex>16</dex><con>12</con><int>8</int><wis>8</wis><cha>5</cha>
+		<str>19</str><dex>13</dex><con>17</con><int>2</int><wis>12</wis><cha>5</cha>
 		<save></save>
-		<skill>Acrobatics +5</skill>
+		<skill>Perception +5</skill>
 		<resist></resist>
 		<vulnerable></vulnerable>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
 		<senses></senses>
-		<passive>9</passive>
+		<passive>15</passive>
 		<languages></languages>
 		<cr>2</cr>
 		<trait>
 			<trait-name>Pounce</trait-name>
-			<text>If the Gazorpazorpfield moves at least 30 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the Gazorpazorpfield can make one bite attack against it as a bonus action.</text>
+			<text>If the allosaurus moves at least 30 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action.</text>
 		</trait>
 		<action>
-			<action-name>Laser Blast</action-name>
-			<text>Ranged Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) fire damage.</text>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.</text>
+			<attack>Bite|6|2d10+4</attack>
 		</action>
 		<action>
 			<action-name>Claw</action-name>
 			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+			<attack>Claw|6|1d8+4</attack>
 		</action>
 		<spells></spells>
 	</monster>
 	<monster>
-		<name>Mr. Poopybutthole</name>
+		<name>Ankylosaurus</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>68 (8d12 + 16)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>19</str><dex>11</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>3</cr>
+		<action>
+			<action-name>Tail</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Ape</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>19 (3d8 + 6)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>16</str><dex>14</dex><con>14</con><int>6</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Athletics +5, Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The ape makes two fist attacks.</text>
+		</action>
+		<action>
+			<action-name>Fist</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Fist|5|1d6+3</attack>
+		</action>
+		<action>
+			<action-name>Rock</action-name>
+			<text>Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+			<attack>Rock|5|1d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Axe Beak</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>14</str><dex>12</dex><con>12</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</text>
+			<attack>Beak|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Baboon</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>8</str><dex>14</dex><con>11</con><int>4</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 — 1) piercing damage.</text>
+			<attack>Bite|1|1d4-1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Badger</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>3 (1d4 + 1)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow>5 ft.</burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>4</str><dex>11</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The badger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+			<attack>Bite|2|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Bat</name>
 		<size>Tiny</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
 		<ac>12</ac>
-		<hp>37 (5d10 + 10)</hp>
-		<speed>30 ft.</speed>
-		<fly></fly>
+		<hp>1 (1d4-1)</hp>
+		<speed>5 ft.</speed>
+		<fly>30 ft.</fly>
 		<burrow></burrow>
 		<climb></climb>
 		<swim></swim>
-		<str>9</str><dex>14</dex><con>14</con><int>8</int><wis>8</wis><cha>14</cha>
+		<str>2</str><dex>15</dex><con>8</con><int>2</int><wis>12</wis><cha>4</cha>
 		<save></save>
 		<skill></skill>
 		<resist></resist>
-		<vulnerable>Beth, Bullets</vulnerable>
+		<vulnerable></vulnerable>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
-		<senses></senses>
-		<passive>9</passive>
+		<senses>blindsight 60 ft.</senses>
+		<passive>11</passive>
 		<languages></languages>
-		<cr>1</cr>
+		<cr>0</cr>
 		<trait>
-			<trait-name>Good Memories</trait-name>
-			<text>Only good times when Mr. Poopybutthole is around.</text>
+			<trait-name>Echolocation</trait-name>
+			<text>The bat can't use its blindsight while deafened.</text>
+		</trait>
+		<trait>
+			<trait-name>Keen Hearing</trait-name>
+			<text>The bat has advantage on Wisdom (Perception) checks that rely on hearing.</text>
 		</trait>
 		<action>
-			<action-name>Punch</action-name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) blugeoning damage.</text>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
+			<attack>Bite||1</attack>
 		</action>
 		<spells></spells>
 	</monster>
 	<monster>
-		<name>Gazorpazorpfield</name>
+		<name>Black Bear</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d8 + 6)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>15</str><dex>10</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The bear has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The bear makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Bite|3|1d6+2</attack>
+		</action>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</text>
+			<attack>Claws|3|2d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+
+	<monster>
+		<name>Blood Hawk</name>
 		<size>Small</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
-		<ac>15 (natural armor)</ac>
-		<hp>19 (3d10 + 3)</hp>
-		<speed>30 ft.</speed>
+		<ac>12</ac>
+		<hp>7 (2d6)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>6</str><dex>14</dex><con>10</con><int>3</int><wis>14</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Keen Sight</trait-name>
+			<text>The hawk has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Beak|4|1d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Boar</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>40 ft.</speed>
 		<fly></fly>
 		<burrow></burrow>
 		<climb></climb>
 		<swim></swim>
-		<str>14</str><dex>16</dex><con>12</con><int>10</int><wis>8</wis><cha>5</cha>
+		<str>13</str><dex>11</dex><con>12</con><int>2</int><wis>9</wis><cha>5</cha>
 		<save></save>
-		<skill>Athletics +5</skill>
+		<skill></skill>
 		<resist></resist>
 		<vulnerable></vulnerable>
 		<immune></immune>
@@ -92,108 +347,1667 @@
 		<senses></senses>
 		<passive>9</passive>
 		<languages></languages>
-		<cr>1/2</cr>
+		<cr>1/4</cr>
 		<trait>
-			<trait-name>Pounce</trait-name>
-			<text>If the Gazorpazorpfield moves at least 30 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the Gazorpazorpfield can make one bite attack against it as a bonus action.</text>
+			<trait-name>Charge</trait-name>
+			<text>If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||1d6</attack>
+		</trait>
+		<trait>
+			<trait-name>Relentless (Recharges after a Short or Long Rest)</trait-name>
+			<text>If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
 		</trait>
 		<action>
-			<action-name>Bite</action-name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.</text>
-		</action>
-		<action>
-			<action-name>Claw</action-name>
-			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</text>
+			<action-name>Tusk</action-name>
+			<text>Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Tusk|3|1d6+1</attack>
 		</action>
 		<spells></spells>
 	</monster>
 	<monster>
-		<name>Squanchy</name>
-		<size>Small</size>
+		<name>Brown Bear</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>34 (4d10 + 12)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>19</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The bear has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The bear makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</text>
+			<attack>Bite|5|1d8+4</attack>
+		</action>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</text>
+			<attack>Claws|5|2d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Camel</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>9</ac>
+		<hp>15 (2d10 + 4)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>16</str><dex>8</dex><con>14</con><int>2</int><wis>8</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</text>
+			<attack>Bite|5|1d4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Cat</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>2 (1d4)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>3</str><dex>15</dex><con>10</con><int>3</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The cat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+			<attack>Claws||1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Cave Bear</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>42 (5d10 + 15)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The bear has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The bear makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>Bite|7|1d8+5</attack>
+		</action>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
+			<attack>Claws|7|2d6+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Constrictor Snake</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>13 (2d10 + 2)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>15</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Bite|4|1d6+2</attack>
+		</action>
+		<action>
+			<action-name>Constrict</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+			<attack>Constrict|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Crab</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>2 (1d4)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>20 ft.</swim>
+		<str>2</str><dex>11</dex><con>10</con><int>1</int><wis>8</wis><cha>2</cha>
+		<save></save>
+		<skill>Stealth +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Amphibious</trait-name>
+			<text>The crab can breathe air and water.</text>
+		</trait>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</text>
+			<attack>Claw||1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Crocodile</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>20 ft.</swim>
+		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill>Stealth +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>The crocodile can hold its breath for 15 minutes.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target</text>
+			<attack>Bite|4|1d10+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Deer</name>
+		<size>Medium</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
 		<ac>13</ac>
+		<hp>4 (1d8)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>11</str><dex>16</dex><con>11</con><int>2</int><wis>14</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Bite|2|1d4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Dire Wolf</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>37 (5d10 + 10)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>17</str><dex>15</dex><con>15</con><int>3</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|5|2d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Draft Horse</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
 		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>18</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.</text>
+			<attack>Hooves|6|2d4+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Eagle</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>6</str><dex>15</dex><con>10</con><int>2</int><wis>14</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Sight</trait-name>
+			<text>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Talons|4|1d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Elephant</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>76 (8d12 + 24)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>22</str><dex>9</dex><con>17</con><int>3</int><wis>11</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>4</cr>
+		<trait>
+			<trait-name>Trampling Charge</trait-name>
+			<text>If the elephant moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the elephant can make one stomp attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Gore</action-name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage.</text>
+			<attack>Gore|8|3d8+5</attack>
+		</action>
+		<action>
+			<action-name>Stomp</action-name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 21 (3d10 + 5) bludgeoning damage.</text>
+			<attack>Stomp|8|3d10+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Elk</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>13 (2d10 + 2)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>10</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<action>
+			<action-name>Ram</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
+		</action>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Flying Snake</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14</ac>
+		<hp>5 (2d4)</hp>
+		<speed>30 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>4</str><dex>18</dex><con>11</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Flyby</trait-name>
+			<text>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</text>
+			<attack>Bite|6|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Frog</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>20 ft.</swim>
+		<str>1</str><dex>13</dex><con>8</con><int>1</int><wis>8</wis><cha>3</cha>
+		<save></save>
+		<skill>Perception +1, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Amphibious</trait-name>
+			<text>The frog can breathe air and water</text>
+		</trait>
+		<trait>
+			<trait-name>Standing Leap</trait-name>
+			<text>The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.</text>
+		</trait>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Badger</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>13 (2d8 + 4)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow>10 ft.</burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>13</str><dex>10</dex><con>15</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The badger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The badger makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+			<attack>Bite|3|1d6+1</attack>
+		</action>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.</text>
+			<attack>Claws|3|2d4+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Bat</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>22 (4d10)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>15</str><dex>16</dex><con>11</con><int>2</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Echolocation</trait-name>
+			<text>The bat can't use its blindsight while deafened.</text>
+		</trait>
+		<trait>
+			<trait-name>Keen Hearing</trait-name>
+			<text>The bat has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Bite|4|1d6+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Boar</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>42 (5d10 + 5)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>17</str><dex>10</dex><con>16</con><int>2</int><wis>7</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>8</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<trait>
+			<trait-name>Relentless (Recharges after a Short or Long Rest)</trait-name>
+			<text>If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</text>
+		</trait>
+		<action>
+			<action-name>Tusk</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
+			<attack>Tusk|5|2d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Centipede</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>4 (1d6 + 1)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>5</str><dex>14</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>8</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Bite|4|1d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Constrictor Snake</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>60 (8d12 + 8)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>19</str><dex>14</dex><con>12</con><int>1</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.</text>
+			<attack>Bite|6|2d6+4</attack>
+		</action>
+		<action>
+			<action-name>Constrict</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.</text>
+			<attack>Constrict|6|2d8+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Crab</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>13 (3d8)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>13</str><dex>15</dex><con>11</con><int>1</int><wis>9</wis><cha>3</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Amphibious</trait-name>
+			<text>The crab can breathe air and water.</text>
+		</trait>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|3|1d6+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Crocodile</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>85 (9d12 + 27)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>50 ft.</swim>
+		<str>21</str><dex>9</dex><con>17</con><int>2</int><wis>10</wis><cha>7</cha>
+		<save></save>
+		<skill>Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>5</cr>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>The crocodile can hold its breath for 30 minutes.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The crocodile makes two attacks: one with its bite and one with its tail.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.</text>
+			<attack>Bite|8|3d10+5</attack>
+		</action>
+		<action>
+			<action-name>Tail</action-name>
+			<text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.</text>
+			<attack>Tail|8|2d8+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Eagle</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>neutral good</alignment>
+		<ac>13</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>10 ft.</speed>
+		<fly>80 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>16</str><dex>17</dex><con>13</con><int>8</int><wis>14</wis><cha>10</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Giant Eagle, understands Common and Auran but can't speak</languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Sight</trait-name>
+			<text>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The eagle makes two attacks: one with its beak and one with its talons.</text>
+		</action>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</text>
+			<attack>Beak|5|1d6+3</attack>
+		</action>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</text>
+			<attack>Talons|5|2d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Elk</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>42 (5d12 + 10)</hp>
+		<speed>60 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>19</str><dex>16</dex><con>14</con><int>7</int><wis>14</wis><cha>10</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages>Giant Elk, understands Common, Elvish, and Sylvan but can't speak</languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<action>
+			<action-name>Ram</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>Ram|6|2d6+4</attack>
+		</action>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.</text>
+			<attack>Hooves|6|4d8+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Fire Beetle</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>4 (1d6 + 1)</hp>
 		<speed>30 ft.</speed>
 		<fly></fly>
 		<burrow></burrow>
 		<climb></climb>
 		<swim></swim>
-		<str>8</str><dex>16</dex><con>12</con><int>10</int><wis>10</wis><cha>12</cha>
+		<str>8</str><dex>10</dex><con>12</con><int>1</int><wis>7</wis><cha>3</cha>
 		<save></save>
-		<skill>+ 5 Squanch</skill>
-		<resist>Squanches</resist>
-		<vulnerable>Squanches</vulnerable>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
-		<senses>Squanchvision 60ft</senses>
-		<passive>10</passive>
-		<languages>Squanchese</languages>
-		<cr>1/4</cr>
+		<senses>blindsight 30 ft.</senses>
+		<passive>8</passive>
+		<languages></languages>
+		<cr>0</cr>
 		<trait>
-			<trait-name>Squanch Out</trait-name>
-			<text>Once per squanch Squanchy can assume the form of a Ultra-Squanch adding +5 to his Strenth and +5 to his Squanch.</text>
+			<trait-name>Illumination</trait-name>
+			<text>The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..</text>
 		</trait>
 		<action>
-			<action-name>Claw</action-name>
-			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d4+3) squanch damage.</text>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 — 1) slashing damage.</text>
+			<attack>Bite|1|1d6-1</attack>
 		</action>
+		<spells></spells>
 	</monster>
-
 	<monster>
-		<name>Mr. Meeseeks</name>
-		<size>Medium</size>
+		<name>Giant Fly</name>
+		<size>Large</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
 		<ac>11</ac>
 		<hp>19 (3d10 + 3)</hp>
 		<speed>30 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>14</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Frog</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>18 (4d8)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>12</str><dex>13</dex><con>11</con><int>2</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill>Perception +2, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Amphibious</trait-name>
+			<text>The frog can breathe air and water</text>
+		</trait>
+		<trait>
+			<trait-name>Standing Leap</trait-name>
+			<text>The frog's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.</text>
+			<attack>Bite|3|1d6+1</attack>
+		</action>
+		<action>
+			<action-name>Swallow</action-name>
+			<text>The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Goat</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>40 ft.</speed>
 		<fly></fly>
 		<burrow></burrow>
 		<climb></climb>
 		<swim></swim>
-		<str>10</str><dex>12</dex><con>16</con><int>10</int><wis>8</wis><cha>5</cha>
+		<str>17</str><dex>11</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
 		<save></save>
 		<skill></skill>
 		<resist></resist>
-		<vulnerable>Jerry</vulnerable>
+		<vulnerable></vulnerable>
 		<immune></immune>
-		<conditionImmune>Sleep</conditionImmune>
+		<conditionImmune></conditionImmune>
 		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d4</attack>
+		</trait>
+		<trait>
+			<trait-name>Sure-Footed</trait-name>
+			<text>The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<action-name>Ram</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Ram|5|2d4+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Hyena</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>45 (6d10 + 12)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>16</str><dex>14</dex><con>14</con><int>2</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Rampage</trait-name>
+			<text>When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</text>
+			<attack>Bite|5|1d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Lizard</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>15</str><dex>12</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Variant: Hold Breath</trait-name>
+			<text>The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)</text>
+		</trait>
+		<trait>
+			<trait-name>Variant: Spider Climb</trait-name>
+			<text>The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Bite|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Octopus</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>52 (8d10 + 8)</hp>
+		<speed>10 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>60 ft.</swim>
+		<str>17</str><dex>13</dex><con>13</con><int>4</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>While out of water, the octopus can hold its breath for 1 hour.</text>
+		</trait>
+		<trait>
+			<trait-name>Underwater Camouflage</trait-name>
+			<text>The octopus has advantage on Dexterity (Stealth) checks made while underwater.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The octopus can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Tentacles</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.</text>
+			<attack>Tentacles|5|2d6+3</attack>
+		</action>
+		<action>
+			<action-name>Ink Cloud (Recharges after a Short or Long Rest)</action-name>
+			<text>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Owl</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>neutral</alignment>
+		<ac>12</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>5 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>13</str><dex>15</dex><con>12</con><int>8</int><wis>13</wis><cha>10</cha>
+		<save></save>
+		<skill>Perception +5, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
 		<passive>15</passive>
+		<languages>Giant Owl, understands Common, Elvish, and Sylvan but can't speak</languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Flyby</trait-name>
+			<text>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<trait-name>Keen Hearing and Sight</trait-name>
+			<text>The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.</text>
+			<attack>Talons|3|2d6+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Poisonous Snake</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>10</str><dex>18</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Bite|6|1d4+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Rat</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>7 (2d6)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>7</str><dex>15</dex><con>11</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
 		<languages></languages>
 		<cr>1/8</cr>
 		<trait>
-			<trait-name>Help</trait-name>
-			<text>Mr. Meeseeks has advantage on checks to aid others</text>
+			<trait-name>Keen Smell</trait-name>
+			<text>The rat has advantage on Wisdom (Perception) checks that rely on smell.</text>
 		</trait>
 		<trait>
 			<trait-name>Pack Tactics</trait-name>
-			<text>Mr. Meeseeks has advantage on an attack roll against a creature if at least one other Mr. Meeseeks is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+			<text>The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
 		</trait>
 		<action>
-			<action-name>Punch</action-name>
-			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 4 (1d6) blugeoning damage.</text>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
+			<attack>Bite|4|1d4+2</attack>
 		</action>
+		<spells></spells>
 	</monster>
-
 	<monster>
-		<name>Pencilvestyr</name>
-		<size>Tiny</size>
+		<name>Giant Rat (Diseased)</name>
+		<size>Small</size>
 		<type>beast</type>
 		<alignment>unaligned</alignment>
-		<ac>13</ac>
-		<hp>4 (1d8)</hp>
+		<ac>12</ac>
+		<hp>7 (2d6)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>7</str><dex>15</dex><con>11</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies.</text>
+			<attack>Bite|3|1d4+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Scorpion</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>15 (natural armor)</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>15</str><dex>13</dex><con>15</con><int>1</int><wis>9</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>3</cr>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</text>
+			<attack>Claw|4|1d8+2</attack>
+		</action>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The scorpion makes three attacks: two with its claws and one with its sting.</text>
+		</action>
+		<action>
+			<action-name>Sting</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Sting|4|1d10+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Sea Horse</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>16 (3d10)</hp>
+		<speed>0 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>40 ft.</swim>
+		<str>12</str><dex>15</dex><con>11</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d6</attack>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The sea horse can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Ram</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</text>
+			<attack>|3|1d6+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Shark</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>126 (11d12 + 55)</hp>
+		<speed>swim 50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>23</str><dex>11</dex><con>21</con><int>1</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 60 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>5</cr>
+		<trait>
+			<trait-name>Blood Frenzy</trait-name>
+			<text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The shark can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</text>
+			<attack>Bite|9|3d10+6</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Spider</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>30 ft.</climb>
+		<swim></swim>
+		<str>14</str><dex>16</dex><con>12</con><int>2</int><wis>11</wis><cha>4</cha>
+		<save></save>
+		<skill>Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Spider Climb</trait-name>
+			<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Sense</trait-name>
+			<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Walker</trait-name>
+			<text>The spider ignores movement restrictions caused by webbing.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Bite|5|1d8+3</attack>
+		</action>
+		<action>
+			<action-name>Web (Recharge 5-6)</action-name>
+			<text>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</text>
+			<attack>Web|5|0</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Toad</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>39 (6d10 + 6)</hp>
 		<speed>20 ft.</speed>
 		<fly></fly>
 		<burrow></burrow>
 		<climb></climb>
-		<swim></swim>
-		<str>8</str><dex>16</dex><con>10</con><int>10</int><wis>10</wis><cha>16</cha>
+		<swim>40 ft.</swim>
+		<str>15</str><dex>13</dex><con>13</con><int>2</int><wis>10</wis><cha>3</cha>
 		<save></save>
-		<skill>+10 Deception</skill>
+		<skill></skill>
 		<resist></resist>
-		<vulnerable>Lasers</vulnerable>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Amphibious</trait-name>
+			<text>The toad can breathe air and water</text>
+		</trait>
+		<trait>
+			<trait-name>Standing Leap</trait-name>
+			<text>The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.</text>
+			<attack>Bite|4|1d10+2</attack>
+		</action>
+		<action>
+			<action-name>Swallow</action-name>
+			<text>The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.</text>
+			<text>If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Vulture</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>neutral evil</alignment>
+		<ac>10</ac>
+		<hp>22 (3d10 + 6)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>15</str><dex>10</dex><con>15</con><int>6</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages>understands Common but can't speak</languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Sight and Smell</trait-name>
+			<text>The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The vulture makes two attacks: one with its beak and one with its talons.</text>
+		</action>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</text>
+			<attack>Beak|4|2d4+2</attack>
+		</action>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</text>
+			<attack>Talons|4|2d6+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Wasp</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>13 (3d8)</hp>
+		<speed>10 ft.</speed>
+		<fly>50 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>50 ft.</swim>
+		<str>10</str><dex>14</dex><con>10</con><int>1</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<action>
+			<action-name>Sting</action-name>
+			<text>Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Sting|4|1d6+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Weasel</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>9 (2d8)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>11</str><dex>16</dex><con>10</con><int>4</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</text>
+			<attack>Bite|5|1d4+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Giant Wolf Spider</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>40 ft.</climb>
+		<swim></swim>
+		<str>12</str><dex>16</dex><con>13</con><int>3</int><wis>12</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +7</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Spider Climb</trait-name>
+			<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Sense</trait-name>
+			<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Walker</trait-name>
+			<text>The spider ignores movement restrictions caused by webbing.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.</text>
+			<attack>Bite|3|1d6+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Goat</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>4 (1d8)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>12</str><dex>10</dex><con>11</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
 		<immune></immune>
 		<conditionImmune></conditionImmune>
 		<senses></senses>
@@ -201,12 +2015,1301 @@
 		<languages></languages>
 		<cr>0</cr>
 		<trait>
-			<trait-name>Parasite</trait-name>
-			<text>"Remember that time..."</text>
+			<trait-name>Charge</trait-name>
+			<text>If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||1d4</attack>
+		</trait>
+		<trait>
+			<trait-name>Sure-Footed</trait-name>
+			<text>The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<action-name>Ram</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</text>
+			<attack>Ram|3|1d4+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Hawk</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>5</str><dex>16</dex><con>8</con><int>2</int><wis>14</wis><cha>6</cha>
+		<save></save>
+		<skill>Perception +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Sight</trait-name>
+			<text>The hawk has advantage on Wisdom (Perception) checks that rely on sight.</text>
+		</trait>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+			<attack>Talons|5|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Hunter Shark</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>45 (6d10 + 12)</hp>
+		<speed></speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>40 ft.</swim>
+		<str>18</str><dex>13</dex><con>15</con><int>1</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Blood Frenzy</trait-name>
+			<text>The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The shark can breathe only underwater.</text>
 		</trait>
 		<action>
 			<action-name>Bite</action-name>
-			<text>Melee Weapon Attack: -1 to hit, reach 5 ft., one target. Hit: 4 (1d4) piercing damage.</text>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</text>
+			<attack>Bite|6|2d8+4</attack>
 		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Hyena</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>5 (1d8 + 1)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>11</str><dex>13</dex><con>12</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</text>
+			<attack>Bite|2|1d6</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Jackal</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>8</str><dex>15</dex><con>11</con><int>3</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 — 1) piercing damage.</text>
+			<attack>Bite|1|1d4-1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Killer Whale</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>90 (12d12 + 12)</hp>
+		<speed></speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>60 ft.</swim>
+		<str>19</str><dex>10</dex><con>13</con><int>3</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 120 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>3</cr>
+		<trait>
+			<trait-name>Echolocation</trait-name>
+			<text>The whale can't use its blindsight while deafened.</text>
+		</trait>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>The whale can hold its breath for 30 minutes</text>
+		</trait>
+		<trait>
+			<trait-name>Keen Hearing</trait-name>
+			<text>The whale has advantage on Wisdom (Perception) checks that rely on hearing.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Lion</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>26 (4d10 + 4)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>17</str><dex>15</dex><con>13</con><int>3</int><wis>12</wis><cha>8</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The lion has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<trait-name>Pounce</trait-name>
+			<text>If the lion moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<trait>
+			<trait-name>Running Leap</trait-name>
+			<text>With a 10-foot running start, the lion can long jump up to 25 ft..</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</text>
+			<attack>Bite|5|1d8+3</attack>
+		</action>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
+			<attack>Claw|5|1d6+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Lizard</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>2 (1d4)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>20 ft.</climb>
+		<swim></swim>
+		<str>2</str><dex>11</dex><con>10</con><int>1</int><wis>8</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+			<attack>Bite||1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Mammoth</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>126 (11d12 + 55)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>24</str><dex>9</dex><con>21</con><int>3</int><wis>11</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>6</cr>
+		<trait>
+			<trait-name>Trampling Charge</trait-name>
+			<text>If the mammoth moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Gore</action-name>
+			<text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.</text>
+			<attack>Gore|10|4d8+7</attack>
+		</action>
+		<action>
+			<action-name>Stomp</action-name>
+			<text>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.</text>
+			<attack>Stomp|10|4d10+7</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Mastiff</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>5 (1d8 + 1)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>13</str><dex>14</dex><con>12</con><int>3</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|3|1d6+1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Mule</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>14</str><dex>10</dex><con>13</con><int>2</int><wis>10</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<trait>
+			<trait-name>Beast of Burden</trait-name>
+			<text>The mule is considered to be a Large animal for the purpose of determining its carrying capacity.</text>
+		</trait>
+		<trait>
+			<trait-name>Sure-Footed</trait-name>
+			<text>The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.</text>
+		</trait>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</text>
+			<attack>Hooves|4|1d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Octopus</name>
+		<size>Small</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>3 (1d6)</hp>
+		<speed>5 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>4</str><dex>15</dex><con>11</con><int>3</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +2, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>While out of water, the octopus can hold its breath for 30 minutes.</text>
+		</trait>
+		<trait>
+			<trait-name>Underwater Camouflage</trait-name>
+			<text>The octopus has advantage on Dexterity (Stealth) checks made while underwater.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The octopus can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Tentacles</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.</text>
+			<attack>Tentacles|4|1</attack>
+		</action>
+		<action>
+			<action-name>Ink Cloud (Recharges after a Short or Long Rest)</action-name>
+			<text>A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Owl</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>5 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>3</str><dex>13</dex><con>8</con><int>2</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 120 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Flyby</trait-name>
+			<text>The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		</trait>
+		<trait>
+			<trait-name>Keen Hearing and Sight</trait-name>
+			<text>The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.</text>
+		</trait>
+		<action>
+			<action-name>Talons</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</text>
+			<attack>Talons|3|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Panther</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>13 (3d8)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>40 ft.</climb>
+		<swim></swim>
+		<str>14</str><dex>15</dex><con>10</con><int>3</int><wis>14</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +4, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>14</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The panther has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pounce</trait-name>
+			<text>If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+			<attack>Bite|4|1d6+2</attack>
+		</action>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</text>
+			<attack>Claw|4|1d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Plesiosaurus</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>68 (8d10 + 24)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>40 ft.</swim>
+		<str>18</str><dex>15</dex><con>16</con><int>2</int><wis>12</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Hold Breath</trait-name>
+			<text>The plesiosaurus can hold its breath for 1 hour.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.</text>
+			<attack>Bite|6|3d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Poisonous Snake</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>2 (1d4)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>2</str><dex>16</dex><con>11</con><int>1</int><wis>10</wis><cha>3</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Bite|5|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Polar Bear</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>42 (5d10 + 15)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>30 ft.</swim>
+		<str>20</str><dex>10</dex><con>16</con><int>2</int><wis>13</wis><cha>7</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The bear has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Multiattack</action-name>
+			<text>The bear makes two attacks: one with its bite and one with its claws.</text>
+		</action>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.</text>
+			<attack>Bite|7|1d8+5</attack>
+		</action>
+		<action>
+			<action-name>Claws</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
+			<attack>Claws|7|2d6+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Pony</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>15</str><dex>10</dex><con>13</con><int>2</int><wis>11</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.</text>
+			<attack>Hooves|4|2d4+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Pteranodon</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>13 (3d8)</hp>
+		<speed>10 ft.</speed>
+		<fly>60 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>12</str><dex>15</dex><con>10</con><int>2</int><wis>9</wis><cha>5</cha>
+		<save></save>
+		<skill>Perception +1</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Flyby</trait-name>
+			<text>The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Quipper</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed></speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>40 ft.</swim>
+		<str>2</str><dex>16</dex><con>9</con><int>1</int><wis>7</wis><cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>8</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Blood Frenzy</trait-name>
+			<text>The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The quipper can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+			<attack>Bite|5|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Rat</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>2</str><dex>11</dex><con>9</con><int>2</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The rat has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+			<attack>Bite||1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Raven</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>10 ft.</speed>
+		<fly>50 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>2</str><dex>14</dex><con>8</con><int>2</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Mimicry</trait-name>
+			<text>The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</text>
+		</trait>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Reef Shark</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12 (natural armor)</ac>
+		<hp>22 (4d8 + 4)</hp>
+		<speed></speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>40 ft.</swim>
+		<str>14</str><dex>13</dex><con>13</con><int>1</int><wis>10</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +2</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 30 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The shark can breathe only underwater.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+			<attack>Bite|4|1d8+2</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Rhinoceros</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>45 (6d10 + 12)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>21</str><dex>8</dex><con>15</con><int>2</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Charge</trait-name>
+			<text>If the rhinoceros moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</text>
+			<attack>Charge||2d8</attack>
+		</trait>
+		<action>
+			<action-name>Gore</action-name>
+			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
+			<attack>Gore|7|2d8+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Riding Horse</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>13 (2d10 + 2)</hp>
+		<speed>60 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>16</str><dex>10</dex><con>12</con><int>2</int><wis>11</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.</text>
+			<attack>Hooves|2|2d4+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Saber-Toothed Tiger</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>52 (7d10 + 14)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>18</str><dex>14</dex><con>15</con><int>3</int><wis>12</wis><cha>8</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>2</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The tiger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pounce</trait-name>
+			<text>If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.</text>
+			<attack>Bite|6|1d10+5</attack>
+		</action>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</text>
+			<attack>Claw|6|2d6+5</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Scorpion</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11 (natural armor)</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>10 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>2</str><dex>11</dex><con>8</con><int>1</int><wis>8</wis><cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>blindsight 10 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<action>
+			<action-name>Sting</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.</text>
+			<attack>Sting|2|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Sea Horse</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed></speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim>20 ft.</swim>
+		<str>1</str><dex>12</dex><con>8</con><int>1</int><wis>10</wis><cha>2</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Water Breathing</trait-name>
+			<text>The sea horse can breathe only underwater.</text>
+		</trait>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Spider</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>20 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb>20 ft.</climb>
+		<swim></swim>
+		<str>2</str><dex>14</dex><con>8</con><int>1</int><wis>10</wis><cha>2</cha>
+		<save></save>
+		<skill>Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 30 ft.</senses>
+		<passive>12</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Spider Climb</trait-name>
+			<text>The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Sense</trait-name>
+			<text>While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</text>
+		</trait>
+		<trait>
+			<trait-name>Web Walker</trait-name>
+			<text>The spider ignores movement restrictions caused by webbing.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.</text>
+			<attack>Bite|4|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Stirge</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>14 (natural armor)</ac>
+		<hp>2 (1d4)</hp>
+		<speed>10 ft.</speed>
+		<fly>40 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>4</str><dex>16</dex><con>11</con><int>2</int><wis>8</wis><cha>6</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>9</passive>
+		<languages></languages>
+		<cr>1/8</cr>
+		<action>
+			<action-name>Blood Drain</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.</text>
+			<text>The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</text>
+			<attack>Blood Drain|5|1d4+3</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Tiger</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>12</ac>
+		<hp>37 (5d10 + 10)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>17</str><dex>15</dex><con>14</con><int>3</int><wis>12</wis><cha>8</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +6</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses>darkvision 60 ft.</senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1</cr>
+		<trait>
+			<trait-name>Keen Smell</trait-name>
+			<text>The tiger has advantage on Wisdom (Perception) checks that rely on smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pounce</trait-name>
+			<text>If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</text>
+			<attack>Bite|5|1d10+3</attack>
+		</action>
+		<action>
+			<action-name>Claw</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</text>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Triceratops</name>
+		<size>Huge</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>95 (10d12 + 30)</hp>
+		<speed>50 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>22</str><dex>9</dex><con>17</con><int>2</int><wis>11</wis><cha>5</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>10</passive>
+		<languages></languages>
+		<cr>5</cr>
+		<trait>
+			<trait-name>Trampling Charge</trait-name>
+			<text>If the triceratops moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Gore</action-name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage.</text>
+			<attack>Gore|9|4d8+6</attack>
+		</action>
+		<action>
+			<action-name>Stomp</action-name>
+			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage</text>
+			<attack>Stomp|9|3d10+6</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Vulture</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>10</ac>
+		<hp>5 (1d8 + 1)</hp>
+		<speed>10 ft.</speed>
+		<fly>50 ft.</fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>7</str><dex>10</dex><con>13</con><int>2</int><wis>12</wis><cha>4</cha>
+		<save></save>
+		<skill>Perception +3</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Sight and Smell</trait-name>
+			<text>The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Beak</action-name>
+			<text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</text>
+			<attack>Beak|2|1d4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Warhorse</name>
+		<size>Large</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>11</ac>
+		<hp>19 (3d10 + 3)</hp>
+		<speed>60 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>18</str><dex>12</dex><con>13</con><int>2</int><wis>12</wis><cha>7</cha>
+		<save></save>
+		<skill></skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>11</passive>
+		<languages></languages>
+		<cr>1/2</cr>
+		<trait>
+			<trait-name>Trampling Charge</trait-name>
+			<text>If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action.</text>
+		</trait>
+		<action>
+			<action-name>Hooves</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</text>
+			<attack>|4|2d6+4</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Weasel</name>
+		<size>Tiny</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>1 (1d4-1)</hp>
+		<speed>30 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>3</str><dex>16</dex><con>8</con><int>2</int><wis>12</wis><cha>3</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +5</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>0</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.</text>
+			<attack>Bite|5|1</attack>
+		</action>
+		<spells></spells>
+	</monster>
+	<monster>
+		<name>Wolf</name>
+		<size>Medium</size>
+		<type>beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13 (natural armor)</ac>
+		<hp>11 (2d8 + 2)</hp>
+		<speed>40 ft.</speed>
+		<fly></fly>
+		<burrow></burrow>
+		<climb></climb>
+		<swim></swim>
+		<str>12</str><dex>15</dex><con>12</con><int>3</int><wis>12</wis><cha>6</cha>
+		<save></save>
+		<skill>Perception +3, Stealth +4</skill>
+		<resist></resist>
+		<vulnerable></vulnerable>
+		<immune></immune>
+		<conditionImmune></conditionImmune>
+		<senses></senses>
+		<passive>13</passive>
+		<languages></languages>
+		<cr>1/4</cr>
+		<trait>
+			<trait-name>Keen Hearing and Smell</trait-name>
+			<text>The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</text>
+		</trait>
+		<trait>
+			<trait-name>Pack Tactics</trait-name>
+			<text>The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</text>
+		</trait>
+		<action>
+			<action-name>Bite</action-name>
+			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</text>
+			<attack>Bite|4|2d4+2</attack>
+		</action>
+		<spells></spells>
 	</monster>
 </compendium>
